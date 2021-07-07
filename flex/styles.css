@@ -1,0 +1,74 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contenedor {
+    background-color: white;
+    /* height: calc( 100vh - 20px ); */
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px 30px 0 30px;
+}
+h1, h2 {
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+h2 {
+    color:white;
+}
+
+.contenedor-flex {
+    display: flex;
+    align-items: stretch;
+  
+    border: 3px solid red;
+    flex-direction: row;
+   
+     flex-flow: row wrap;
+     
+
+
+   
+}
+
+.elemento-flex {
+     padding: 10px; 
+    background-color: #E53935;
+   
+   
+
+}
+
+.elemento-flex:nth-child(2) {
+  
+    background-color: #adf12e;
+}
+
+.elemento-flex:nth-child(3) {
+    background-color: #3F51B5;
+}
+
+.elemento-flex:nth-child(3) {
+    background-color: #b5863f;
+}
+.elemento-flex:nth-child(4) {
+    background-color: #3F51B5;
+}
+.elemento-flex:nth-child(5) {
+    background-color: #a6e245;
+}
+.elemento-flex:nth-child(6) {
+    background-color: #b8bdd4;
+}.elemento-flex:nth-child(7) {
+    background-color: #07177548;
+}
+
+.elemento-flex:nth-child(8) {
+    background-color: #cc5815;
+}
+
